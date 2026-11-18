@@ -1,6 +1,7 @@
 import { Geist, Instrument_Serif } from "next/font/google";
 import Link from "next/link";
 import Header from "@/app/components/Header";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 const geistSans = Geist({
